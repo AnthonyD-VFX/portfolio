@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony's 3D Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ANTHONY</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>3D Artist & Creator</h1>
+            <p>Exploring the intersection of creativity and technology</p>
+            <a href="#portfolio" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            
+            <!-- Category Filter -->
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="3d-assets">3D Assets</button>
+                <button class="filter-btn" data-filter="characters">Characters</button>
+                <button class="filter-btn" data-filter="texturing">Texturing</button>
+                <button class="filter-btn" data-filter="3d-animation">3D Animation</button>
+                <button class="filter-btn" data-filter="compositing">Compositing</button>
+                <button class="filter-btn" data-filter="vfx">VFX</button>
+                <button class="filter-btn" data-filter="photo-editing">Photo Editing</button>
+                <button class="filter-btn" data-filter="music">Music</button>
+                <button class="filter-btn" data-filter="other">Other</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Items will be loaded here from data.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Have a project or question? I'd love to hear from you!</p>
+            <div class="contact-links">
+                <a href="mailto:your-email@example.com" class="contact-link">Email</a>
+                <a href="https://twitter.com" class="contact-link">Twitter</a>
+                <a href="https://linkedin.com" class="contact-link">LinkedIn</a>
+                <a href="https://artstation.com" class="contact-link">ArtStation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for viewing full content -->
+    <div class="modal" id="modal">
+        <span class="modal-close" id="modalClose">&times;</span>
+        <div class="modal-content" id="modalContent">
+            <!-- Content will be inserted here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
