@@ -1,0 +1,76 @@
+{
+  "portfolio": [
+    {
+      "title": "Example 3D Asset",
+      "category": "3d-assets",
+      "description": "A high-quality 3D model ready for production use",
+      "image": "https://via.placeholder.com/300x200?text=3D+Asset",
+      "video": "",
+      "link": ""
+    },
+    {
+      "title": "Character Concept",
+      "category": "characters",
+      "description": "Original character design and modeling",
+      "image": "https://via.placeholder.com/300x200?text=Character",
+      "video": "",
+      "link": ""
+    },
+    {
+      "title": "Texture Work",
+      "category": "texturing",
+      "description": "Professional PBR textures and materials",
+      "image": "https://via.placeholder.com/300x200?text=Texturing",
+      "video": "",
+      "link": ""
+    },
+    {
+      "title": "Animation Sequence",
+      "category": "3d-animation",
+      "description": "Smooth character animation demo",
+      "image": "https://via.placeholder.com/300x200?text=Animation",
+      "video": "",
+      "link": ""
+    },
+    {
+      "title": "Compositing Project",
+      "category": "compositing",
+      "description": "Complex VFX composition and color grading",
+      "image": "https://via.placeholder.com/300x200?text=Compositing",
+      "video": "",
+      "link": ""
+    },
+    {
+      "title": "VFX Explosion",
+      "category": "vfx",
+      "description": "Dynamic visual effects and simulations",
+      "image": "https://via.placeholder.com/300x200?text=VFX",
+      "video": "",
+      "link": ""
+    },
+    {
+      "title": "Photo Edit",
+      "category": "photo-editing",
+      "description": "Professional photo retouching and enhancement",
+      "image": "https://via.placeholder.com/300x200?text=Photo+Edit",
+      "video": "",
+      "link": ""
+    },
+    {
+      "title": "Original Music",
+      "category": "music",
+      "description": "Composed soundtrack and audio design",
+      "image": "https://via.placeholder.com/300x200?text=Music",
+      "video": "",
+      "link": ""
+    },
+    {
+      "title": "Other Project",
+      "category": "other",
+      "description": "Miscellaneous creative work",
+      "image": "https://via.placeholder.com/300x200?text=Other",
+      "video": "",
+      "link": ""
+    }
+  ]
+}
